@@ -1,0 +1,38 @@
+.map{
+    height: 100vh;
+
+    background: black;
+}
+#bottom{
+    filter:drop-shadow(2px 2px 6px #5FE7FB)
+
+}
+#bottom path{
+    fill: #5FE7FB;
+    fill-opacity: 1;
+    stroke:#5FE7FB;
+    stroke-opacity: 1;
+    stroke-width:0.5; 
+}
+#map{
+    transform:translate(6px,-8px)
+}
+#map path{
+    fill: #1985F7;
+    fill-opacity: 1;
+    stroke:#5FE7FB;
+    stroke-opacity: 1;
+    stroke-width:1;
+    stroke-dasharray:2 5;
+}
+#top{
+    transform:translate(6px,-8px);
+}
+#top path{
+    fill: #1985F7;
+            fill-opacity: 0.2;
+            stroke:#5FE7FB;
+            stroke-opacity: 1;
+            stroke-width:1;
+            stroke-dasharray:2 5;
+}
